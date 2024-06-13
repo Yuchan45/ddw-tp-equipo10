@@ -82,7 +82,7 @@
   z-index: 5;
   width: 100vw;
   height: 100%;
-  background-color: var(--black);
+  background-color: var(--deep-black);
   display: flex !important;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -143,7 +143,7 @@
   text-align: center;
   font-weight: 800;
   letter-spacing: -3px;
-  color: var(--black);
+  color: var(--deep-black);
   text-shadow: 4px 4px 10px rgb(79 79 79 / 45%);
 }
 
@@ -225,7 +225,7 @@
 .footer-container {
   width: 100vw;
   height: 50px;
-  background-color: var(--black);
+  background-color: var(--deep-black);
 }
 
 .footer-container .top-row {
@@ -264,7 +264,7 @@
 
   /* NavBar */
   .nav-bar-container {
-    padding: 0 120px;
+    padding: 0 150px;
     height: 80px;
   }
   .nav-bar-container .nav-right {
@@ -274,6 +274,9 @@
     align-items: center;
     gap: 30px;
   }
+  .nav-bar-container .nav-right li > a {
+    font-weight: 600;
+  }
   .nav-bar-container .menu-btns {
     display: none;
   }
@@ -282,6 +285,79 @@
   /* Banner */
   .banner-container .overlay > h1 {
     font-size: 7rem;
+  }
+
+  /* Goal */
+  .general-section {
+    margin: 150px 0 200px;
+    padding: 0 150px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .general-section > h2 {
+    font-size: 2.5rem;
+}
+
+  .goal-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .project-goal .goal-content > p {
+    font-size: 1.2rem;
+    width: 70%;
+  }
+  .project-goal .goal-content > img {
+    width: 250px;
+    display: block;
+  }
+
+  /* Team info */
+  .team-info .info-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+  .team-info .info-container > ul > li {
+    font-size: 1.2rem;
+  }
+
+  /* Footer */
+  .footer-container {
+    height: auto;
+    padding: 10px;
+  }
+  .footer-container .top-row {
+    padding: 5px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-container .top-row > h3 {
+    display: block;
+    color: #fbfbfb;
+    font-weight: 500;
+  }
+  .footer-container .top-row > h3 {
+    display: block;
+    color: #fbfbfb;
+    font-weight: 500;
+  }
+  .footer-container > p {
+    display: block;
+    color: #777777;
+    font-weight: 500;
+    text-align: center;
+    font-size: .8rem;
   }
 
 }
