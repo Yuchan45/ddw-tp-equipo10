@@ -16,24 +16,33 @@
       <img src="./resources/images/logos/logo-seguridad-vial.png" alt="" srcset="">
     </div>
     <ul class="nav-right">
-      <li>Inicio</li>
-      <li>Objetivo</li>
-      <li>Integrantes</li>
-      <li>Avances</li>
-      <li>Juegos</li>
+      <li><a href="#banner">Inicio</a></li>
+      <li><a href="#goal">Objetivo</a></li>
+      <li><a href="./views/integrantes.html">Integrantes</a></li>
+      <li><a href="./views/avances.html">Avances</a></li>
+      <li><a href="./views/juegos.html">Juegos</a></li>
     </ul>
     <div class="menu-btns">
-      <i class="fa-bars fa" id="bars"></i>
-      <i class="fa fa-close" id="close"></i>
+      <i class="fa-bars fa" id="menu"></i>
+      <!-- <i class="fa fa-close" id="close"></i> -->
     </div>
   </div>
-  <section class="banner-container">
+  <div class="menu-overlay hidden-menu">
+    <ul class="items">
+      <li><a href="#banner">Inicio</a></li>
+      <li><a href="#goal">Objetivo</a></li>
+      <li><a href="./views/integrantes.html">Integrantes</a></li>
+      <li><a href="./views/avances.html">Avances</a></li>
+      <li><a href="./views/juegos.html">Juegos</a></li>
+    </ul>
+  </div>
+  <section class="banner-container" id="banner">
     <div class="banner"></div>
     <div class="overlay">
       <h1>Seguridad Vial</h1>
     </div>
   </section>
-  <section class="general-section project-goal">
+  <section class="general-section project-goal" id="goal">
     <h2>Objetivo del proyecto</h2>
     <div class="goal-content">
       <p>
@@ -72,5 +81,6 @@
     <p>Derechos reservados - Sitio desarrollado para uso educativo</p>
   </footer>
   
+  <script src="./resources/js/navBehaviour.js"></script>
 </body>
 </html>
