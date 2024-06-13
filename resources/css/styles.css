@@ -4,6 +4,7 @@
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   overflow-x: hidden;
+  color: var(--black);
 }
 
 :root {
@@ -12,9 +13,14 @@
   --blue: #009EDF;
   --yellow: #FCC31E;
   --red: #FF232B;
-  --black: #22262A;
+  --black: #535353;
+  --deep-black: #22262A;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-white);
 }

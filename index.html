@@ -3,11 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./resources/images/logos/logo-seguridad-vial.png" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./resources/css/styles.css">
   <link rel="stylesheet" href="./resources/css/index.css">
-  <title>Document</title>
+  <title>E10 - Seguridad Vial</title>
 </head>
 <body>
+  <div class="nav-bar-container">
+    <div class="nav-left">
+      <img src="./resources/images/logos/logo-seguridad-vial.png" alt="" srcset="">
+    </div>
+    <ul class="nav-right">
+      <li><a href="#banner">Inicio</a></li>
+      <li><a href="#goal">Objetivo</a></li>
+      <li><a href="./views/integrantes.html">Integrantes</a></li>
+      <li><a href="./views/avances.html">Avances</a></li>
+      <li><a href="./views/juegos.html">Juegos</a></li>
+    </ul>
+    <div class="menu-btns">
+      <i class="fa-bars fa" id="menu"></i>
+      <!-- <i class="fa fa-close" id="close"></i> -->
+    </div>
+  </div>
+  <div class="menu-overlay hidden-menu">
+    <ul class="items">
+      <li><a href="#banner">Inicio</a></li>
+      <li><a href="#goal">Objetivo</a></li>
+      <li><a href="./views/integrantes.html">Integrantes</a></li>
+      <li><a href="./views/avances.html">Avances</a></li>
+      <li><a href="./views/juegos.html">Juegos</a></li>
+    </ul>
+  </div>
+  <section class="banner-container" id="banner">
+    <div class="banner"></div>
+    <div class="overlay">
+      <h1>Seguridad Vial</h1>
+    </div>
+  </section>
+  <section class="general-section project-goal" id="goal">
+    <h2>Objetivo del proyecto</h2>
+    <div class="goal-content">
+      <p>
+        La <span>seguridad vial</span> es un aspecto fundamental en nuestras vidas diarias 
+        que muchas veces pasamos por alto. Sin embargo, su importancia es innegable, ya que 
+        se encuentra directamente vinculada con la <span>protección de nuestras vidas y la 
+        de quienes nos rodean</span>.<br><br>
+        Cada día, millones de personas utilizan las vías públicas, ya sea como peatones, 
+        ciclistas, conductores o pasajeros, y es esencial que todos comprendamos y 
+        respetemos las normas de tránsito para garantizar un entorno seguro y eficiente.
+      </p>
+      <img src="./resources/images/logos/logo-corazon-seguridad.png" alt="">
+    </div>
+  </section>
+  <section class="general-section team-info">
+    <h2>Datos del equipo</h2>
+    <div class="info-container">
+      <img src="./resources/images/logos/logo-seguridad-vial.png" alt="Logo de seguridad vial">
+      <ul>
+        <li><span>Temática del proyecto:</span> Seguridad Vial</li>
+        <li><span>Nombre del equipo:</span> Team S</li>
+        <li><span>N° de equipo:</span> 10</li>
+        <li><span>Materia:</span> Diseño y Desarrollo Web</li>
+        <li><span>Curso:</span> 13049</li>
+        <li><span>Docente:</span> Litovicius Patricia Carina</li>
+      </ul>
+      <img src="./resources/images/logos/uade-round-logo.png" alt="Logo circular de UADE">
+    </div>
+  </section>
+  <footer class="footer-container">
+    <div class="top-row">
+      <img src="./resources/images/logos/LogoUADE.png" alt="Logo UADE">
+      <h3>Diseño y desarrollo web - 2024</h3>
+      <h3>Equipo 10</h3>
+    </div>
+    <p>Derechos reservados - Sitio desarrollado para uso educativo</p>
+  </footer>
   
+  <script src="./resources/js/navBehaviour.js"></script>
 </body>
 </html>
