@@ -139,7 +139,11 @@
   #palette-title {
     margin-bottom: 20px;
   }
+  .general-section.logo {
+    align-items: center;
+  }
 }
+
 
 
 @media (min-width: 769px) {
