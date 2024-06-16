@@ -144,8 +144,6 @@
   }
 }
 
-
-
 @media (min-width: 769px) {
   .banner-container .overlay {
     display: none; /* Hide overlay in desktop view */
