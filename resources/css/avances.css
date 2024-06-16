@@ -1,6 +1,7 @@
-* > p > span {
+*>p>span {
   color: var(--blue);
- }
+}
+
 /**** Banner ****/
 .banner-container {
   width: 100vw;
@@ -27,7 +28,7 @@
   align-items: center;
 }
 
-.banner-container .overlay > h1 {
+.banner-container .overlay>h1 {
   margin: 15vh;
   font-size: 3.5rem;
   text-align: center;
@@ -47,44 +48,50 @@
   justify-content: center;
 }
 
-.general-section > h2 {
+.general-section>h2 {
   font-size: 1.5rem;
   color: var(--black);
   font-weight: 600;
 }
 
-.target-audience .target-content > p {
+.target-audience .target-content>p {
   font-size: 1rem;
   color: var(--black);
   margin-top: 25px;
 }
 
-.palette-content{
+.palette-content {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between; 
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 20px;
 }
 
 .box {
-  color:var(--white) ;
+  color: var(--white);
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  width: 120px; /* Adjust width as needed */
-  height: 120px; /* Adjust height to maintain square shape */
+  width: 120px;
+  /* Adjust width as needed */
+  height: 120px;
+  /* Adjust height to maintain square shape */
 }
+
 .box1 {
   background-color: var(--blue);
 }
+
 .box2 {
   background-color: var(--yellow);
 }
+
 .box3 {
   background-color: var(--red);
 }
+
 .box4 {
   background-color: var(--deep-black);
 }
@@ -92,44 +99,51 @@
 .general-section.logo h2,
 .general-section.dominio h2,
 .general-section.link-prototype h2,
-.general-section.link-repository h2{
+.general-section.link-repository h2 {
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
+
 .links {
   color: var(--blue);
 }
 
 
 /* Media Queries */
-@media (max-width: 768px) { /*Mobile view*/
-  .general-section{
+@media (max-width: 768px) {
+
+  /*Mobile view*/
+  .general-section {
     text-align: center;
   }
+
   .banner-container .overlay {
-    display: flex; 
-    
+    display: flex;
+
   }
 
   .palette-content {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     padding: 0;
   }
+
   .box {
-    flex: 1 1 100%; 
+    flex: 1 1 100%;
     margin: 0;
-    height: auto; 
-    width: 100%; 
+    height: auto;
+    width: 100%;
     padding: 4%;
     font-size: medium;
     letter-spacing: 0.5px;
     text-align: center;
     font-weight: bold;
   }
+
   .palette-text {
     margin-top: 20px;
   }
+
   #palette-title {
     margin-bottom: 20px;
   }
@@ -138,17 +152,21 @@
 
 @media (min-width: 769px) {
   .banner-container .overlay {
-    display: none; /* Hide overlay in desktop view */
+    display: none;
+    /* Hide overlay in desktop view */
   }
-  .palette-content{
+
+  .palette-content {
     width: 100%;
     height: 100%;
   }
+
   .box {
-      border-radius: 16px;
+    border-radius: 16px;
   }
-  .general-section > h2,
-  .general-section > p {
+
+  .general-section>h2,
+  .general-section>p {
 
     text-align: left;
   }
